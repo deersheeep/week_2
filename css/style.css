@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: #ffffff;
+    outline: none;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+}
+
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 960px;
+    background: url(../images/banner.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+header .container {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+header h1 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+header h1 small {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+.sns {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.sns img {
+    width: 60px;
+    padding: 8px;
+}
+
+
+/*about*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+
+.about .container {
+    width: 450px;
+}
+
+.about h2 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.about li {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.about img {
+    margin-bottom: 24px;
+}
+
+.about hr {
+    width: 348px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 32px;
+}
+
+.about .aboutList {
+    margin-bottom: 28px;
+}
+
+.about .aboutWork li {
+    padding-left: 38px;
+    margin-bottom: 32px;
+}
+
+.about .aboutWork li::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    margin-top: 10px;
+    margin-left: -38px;
+}
+
+
+/* brand */
+
+.brand {
+    color: #ffffff;
+    background-color: #000;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 160px;
+}
+
+.brand .container {
+    width: 1240px;
+}
+
+.brand h2 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+.brand h4 {
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.brand p {
+    font-size: 20px;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+
+.brandImg {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* 偷偷說:選擇器苦手~ */
+
+.brandImg li:first-child {
+    margin: 0 auto 40px;
+}
+
+
+/* work */
+
+.work {
+    background: url(../images/photo-1561291386-5be50364cfb5.png) no-repeat;
+    background-position: bottom center;
+}
+
+.work .container {
+    width: 1240px;
+}
+
+.work h2 {
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.work p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.work .workImg {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 106px;
+}
+
+.work .workImg img {
+    margin-bottom: 16px;
+}
+
+.work .workImg p {
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+
+/* footer */
+
+footer {
+    height: 317px;
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer .container {
+    width: 1200px;
+}
+
+footer h3 {
+    font-size: 64px;
+    line-height: 75px;
+    padding-top: 64px;
+}
+
+footer p {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 80px;
+}
